@@ -43,7 +43,7 @@ export class D3VisComponent implements OnInit {
         y: function(d:any){return d.value;},
         showValues: true,
         valueFormat: function(d:any){
-          return d3.format(',.2f')(d);
+          return (d);
         },
         duration: 500,
         xAxis: {
