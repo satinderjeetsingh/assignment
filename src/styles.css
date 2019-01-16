@@ -26,7 +26,5 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .legend {
     font-size: 12px;
     font-family: sans-serif;
-    rect {
-        stroke-width: 2;
-    }
+    
 }
